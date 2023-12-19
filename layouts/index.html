@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ partial "header" . }}
+
+  <section id="about">
+    <div class="container">
+      {{ .Content }}
+      {{ partial "social.html" . }}
+    </div>
+  </section>
+{{ end }}
